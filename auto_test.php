@@ -32,6 +32,7 @@
 		unlink($log_file);
 	}
 	
+	date_default_timezone_set('Asia/Shanghai');
 
 	foreach($test_threads_readonly as $thread)
 	{
